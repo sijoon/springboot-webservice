@@ -1,4 +1,4 @@
-package com.lona;
+package com.lona.baseBall;
 
 import java.util.Scanner;
 public class BaseBall {
@@ -21,7 +21,7 @@ public class BaseBall {
         for (int i = 0; i < resultNum.length(); i++) {
 
             if (resultNum.indexOf(tryNum.charAt(i)) >= 0 && resultNum.charAt(i) != tryNum.charAt(i)) {
-                strBallCnt.append(Integer.toString(i));
+                strBallCnt.append(i);
                 intBallCnt = strBallCnt.length();
                 countBall = intBallCnt;
             }

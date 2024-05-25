@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/admin/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HelloControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="테스트">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/HelloResponseDtoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/BaseBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/BaseBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/BaseBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/admin/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/HelloControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-webservice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-webservice" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -74,11 +72,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="FF_ONLY" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/HelloControllerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/lona/web/HelloControllerTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" />
@@ -105,6 +110,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "/Users/seongsijun/IdeaProjects/springboot-webservice/src/main/java/com/lona",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,29 +120,29 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IBK\IdeaProjects\springboot-webservice\src\main\java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lona.web" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.springboot-webservice [jar]">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lona.Main" />
-      <module name="springboot-webservice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lona.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloControllerTest.hello_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.HelloControllerTest.helloDto_리턴된다">
+    <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;HelloControllerTest.hello_리턴된다&quot;" />
+            <option value="&quot;com.lona.web.HelloControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -157,60 +165,105 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="springboot-webservice [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloControllerTest.hello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lona.web.HelloControllerTest.hello&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="springboot-webservice [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloControllerTest.helloDto_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="jar" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lona.web.HelloControllerTest.helloDto_리턴된다&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-webservice.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lona.admin.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lona.web.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloResponseDtoTest.helloDto_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.lona.web.HelloResponseDtoTest.helloDto_리턴된다&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.springboot-webservice [jar]" />
-        <item itemvalue="Gradle.springboot-webservice [bootRun]" />
-        <item itemvalue="Gradle.HelloControllerTest.hello_리턴된다" />
+        <item itemvalue="Gradle.HelloControllerTest.helloDto_리턴된다" />
+        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
+        <item itemvalue="Gradle.HelloResponseDtoTest.helloDto_리턴된다" />
+        <item itemvalue="Gradle.HelloControllerTest" />
+        <item itemvalue="Gradle.HelloControllerTest.hello" />
       </list>
     </recent_temporary>
   </component>
