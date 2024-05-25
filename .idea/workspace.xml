@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="테스트">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/HelloResponseDtoTest.java" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="실습 코드 커밋">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/BaseBallController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/BaseBallControllerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/BaseBallControllerDtoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/BaseBallControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/BaseBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/admin/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/HelloControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -133,6 +132,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lona.web" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lona.web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -141,8 +143,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HelloControllerTest.helloDto_리턴된다">
-    <configuration name="HelloControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BaseBallControllerDtoTest">
+    <configuration name="BaseBallControllerDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.HelloControllerTest&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerDtoTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloControllerTest.hello" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BaseBallControllerDtoTest.scoreResultTest_null" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -178,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.HelloControllerTest.hello&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerDtoTest.scoreResultTest_null&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,7 +190,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloControllerTest.helloDto_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BaseBallControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -201,7 +203,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.HelloControllerTest.helloDto_리턴된다&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,7 +213,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BaseBallControllerTest.scoreResultTest_1S2B" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -224,7 +226,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerTest.scoreResultTest_1S2B&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -234,7 +236,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.helloDto_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BaseBallControllerTest.scoreResultTest_null" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -247,7 +249,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.HelloResponseDtoTest.helloDto_리턴된다&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerTest.scoreResultTest_null&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -256,14 +258,21 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-webservice.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lona.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HelloControllerTest.helloDto_리턴된다" />
-        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="Gradle.HelloResponseDtoTest.helloDto_리턴된다" />
-        <item itemvalue="Gradle.HelloControllerTest" />
-        <item itemvalue="Gradle.HelloControllerTest.hello" />
+        <item itemvalue="Gradle.BaseBallControllerDtoTest" />
+        <item itemvalue="Gradle.BaseBallControllerDtoTest.scoreResultTest_null" />
+        <item itemvalue="Gradle.BaseBallControllerTest" />
+        <item itemvalue="Gradle.BaseBallControllerTest.scoreResultTest_null" />
+        <item itemvalue="Gradle.BaseBallControllerTest.scoreResultTest_1S2B" />
       </list>
     </recent_temporary>
   </component>
@@ -279,9 +288,25 @@
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
     </task>
+    <task id="LOCAL-00001" summary="실습 코드 커밋">
+      <created>1716631260292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716631260292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="실습 코드 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="실습 코드 커밋" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
