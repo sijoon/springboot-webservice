@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="실습 코드 커밋">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/BaseBallController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/BaseBallControllerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/BaseBallControllerDtoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/BaseBallControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/baseBall/BaseBall.java" afterDir="false" />
-    </list>
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716631260292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드">
+      <created>1716636248866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716636248866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +304,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="실습 코드 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="실습 코드 커밋" />
+    <MESSAGE value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
