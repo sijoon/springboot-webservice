@@ -1,4 +1,4 @@
-package com.lona.web;
+package com.lona.web.dto;
 
 import com.lona.baseBall.BaseBall;
 import lombok.Getter;

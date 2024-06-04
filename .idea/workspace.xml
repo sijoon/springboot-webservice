@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="PostsRepositoryTest.java 실습 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/domain/post/PostsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="20240604">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/PostsApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-05-21__12_12__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/BaseBallControllerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/BaseBallControllerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/HelloResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/HelloResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/domain/post/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/domain/post/PostsRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/web/BaseBallControllerDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/dto/BaseBallControllerDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/web/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/dto/HelloResponseDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-webservice" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -68,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -99,39 +104,41 @@
     <option name="compactDirectories" value="true" />
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_directory_selection": "/Users/seongsijun/IdeaProjects/springboot-webservice/src/main/java/com/lona",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "0729ed5e247149bd234a38f29213d5af"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/seongsijun/IdeaProjects/springboot-webservice/src/main/java/com/lona&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0729ed5e247149bd234a38f29213d5af&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IBK\IdeaProjects\springboot-webservice\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lona.web.dto" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lona.web" />
@@ -147,7 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BaseBallControllerDtoTest">
+  <component name="RunManager" selected="Gradle.PostsRepositoryTest.test_savePost">
     <configuration name="BaseBallControllerDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -217,7 +224,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BaseBallControllerTest.scoreResultTest_1S2B" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsRepositoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -230,7 +237,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.BaseBallControllerTest.scoreResultTest_1S2B&quot;" />
+            <option value="&quot;com.lona.domain.post.PostsRepositoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -240,7 +247,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BaseBallControllerTest.scoreResultTest_null" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsRepositoryTest.test_savePost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -253,7 +260,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.BaseBallControllerTest.scoreResultTest_null&quot;" />
+            <option value="&quot;com.lona.domain.post.PostsRepositoryTest.test_savePost&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -272,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostsRepositoryTest.test_savePost" />
+        <item itemvalue="Gradle.PostsRepositoryTest (1)" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest.scoreResultTest_null" />
         <item itemvalue="Gradle.BaseBallControllerTest" />
-        <item itemvalue="Gradle.BaseBallControllerTest.scoreResultTest_null" />
-        <item itemvalue="Gradle.BaseBallControllerTest.scoreResultTest_1S2B" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +298,9 @@
       <workItem from="1715912645674" duration="890000" />
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
-      <workItem from="1716867510022" duration="1907000" />
+      <workItem from="1716867510022" duration="2024000" />
+      <workItem from="1717469937822" duration="133000" />
+      <workItem from="1717470197000" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -307,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716636248866</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PostsRepositoryTest.java 실습 작성">
+      <created>1716869557059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716869557059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +345,8 @@
     <MESSAGE value="실습 코드 커밋" />
     <MESSAGE value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
     <MESSAGE value="PostsRepositoryTest.java 실습 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="PostsRepositoryTest.java 실습 작성" />
+    <MESSAGE value="20240604" />
+    <option name="LAST_COMMIT_MESSAGE" value="20240604" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

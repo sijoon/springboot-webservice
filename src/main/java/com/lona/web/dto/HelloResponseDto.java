@@ -1,4 +1,4 @@
-package com.lona.web;
+package com.lona.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
