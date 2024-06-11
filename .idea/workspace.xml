@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="CRUD 진행중">
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="0611 12:40">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostListResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
@@ -312,7 +313,7 @@
       <workItem from="1716867510022" duration="2024000" />
       <workItem from="1717469937822" duration="133000" />
       <workItem from="1717470197000" duration="4978000" />
-      <workItem from="1718074673174" duration="2198000" />
+      <workItem from="1718074673174" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -356,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718074956692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0611 12:40">
+      <created>1718077253706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718077253707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +389,8 @@
     <MESSAGE value="20240604" />
     <MESSAGE value="머스테치" />
     <MESSAGE value="CRUD 진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD 진행중" />
+    <MESSAGE value="0611 12:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="0611 12:40" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
