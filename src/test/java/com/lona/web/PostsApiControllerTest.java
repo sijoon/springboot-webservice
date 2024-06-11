@@ -57,4 +57,6 @@ public class PostsApiControllerTest {
         assertThat(all.get(0).getContent()).isEqualTo(content);
 
     }
+
+
 }
