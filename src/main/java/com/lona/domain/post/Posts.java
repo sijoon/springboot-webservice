@@ -36,4 +36,10 @@ public class Posts {
     public void setId(Long id) {
         this.id = id;
     }
+
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }

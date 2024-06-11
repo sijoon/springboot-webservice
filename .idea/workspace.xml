@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="머스테치">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts/posts-save.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/2024-05-21__12_12__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +99,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gZkjepFddKIFQ3Bd5ATWYdaz4f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenModules" value="true" />
@@ -116,11 +128,14 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;0729ed5e247149bd234a38f29213d5af&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lona.web.dto" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IBK\IdeaProjects\springboot-webservice\src\main\java" />
     </key>
@@ -144,7 +159,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Gradle.PostsApiControllerTest">
     <configuration name="BaseBallControllerDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,7 +206,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BaseBallControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +219,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.BaseBallControllerTest&quot;" />
+            <option value="&quot;com.lona.web.PostsApiControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -269,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostsApiControllerTest" />
         <item itemvalue="Gradle.PostsRepositoryTest.test_savePost" />
         <item itemvalue="Gradle.PostsRepositoryTest (1)" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest.scoreResultTest_null" />
-        <item itemvalue="Gradle.BaseBallControllerTest" />
       </list>
     </recent_temporary>
   </component>

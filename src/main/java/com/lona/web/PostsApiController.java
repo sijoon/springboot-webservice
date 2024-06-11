@@ -2,10 +2,9 @@ package com.lona.web;
 
 import com.lona.service.PostsService;
 import com.lona.web.dto.PostsSaveRequestDto;
+import com.lona.web.dto.PostsUpdateRequestDto;
 import lombok.Builder;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Builder
@@ -17,5 +16,9 @@ public class PostsApiController {
         return postsService.save(requestDto);
     }
 
+    @PutMapping("/api/v1/posts/{id}")
+    public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto) {
+        return postsService.update(id, requestDto);
+    }
 
 }
