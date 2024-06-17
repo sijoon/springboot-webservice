@@ -2,7 +2,7 @@ package com.lona.service;
 
 import com.lona.domain.post.Posts;
 import com.lona.domain.post.PostsRepository;
-import com.lona.web.dto.PostListResponseDto;
+import com.lona.web.dto.PostsListResponseDto;
 import com.lona.web.dto.PostsResponseDto;
 import com.lona.web.dto.PostsSaveRequestDto;
 import com.lona.web.dto.PostsUpdateRequestDto;
@@ -25,15 +25,14 @@ public class PostsService {
     }
 
     @Transactional(readOnly = true)
-    public List<PostListResponseDto> findAllDesc() {
-        return postsRepository.findAllDesc().stream().map(PostListResponseDto::new).collect(Collectors.toList());
+    public List<PostsListResponseDto> findAllDesc() {
+        return postsRepository.findAllDesc().stream().map(PostsListResponseDto::new).collect(Collectors.toList());
     }
 
 
     public Long update(Long id, PostsUpdateRequestDto requestDto) {
         Posts posts = postsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("해당사용자가 없습니다. id=" + id));
         posts.update(requestDto.getTitle(), requestDto.getContent());
-
         return id;
     }
 

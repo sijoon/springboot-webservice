@@ -37,7 +37,7 @@ var main = {
         var id = $('#id').val();
         $.ajax({
             type: 'PUT',
-            url: '/api/vl/posts/' + id,
+            url: '/api/v1/posts/' + id,
             dataType: 'json',
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(data)
@@ -51,7 +51,7 @@ var main = {
         var id = $('#id').val();
         $.ajax({
             type: 'DELETE',
-            url: '/api/vl/posts/' + id,
+            url: '/api/v1/posts/' + id,
             dataType: 'json',
             contentType: 'application/json; charset=utf-8'
         }).done(function () {
