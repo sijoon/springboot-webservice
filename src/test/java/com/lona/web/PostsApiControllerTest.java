@@ -4,6 +4,7 @@ import com.lona.domain.post.Posts;
 import com.lona.domain.post.PostsRepository;
 import com.lona.web.dto.PostsSaveRequestDto;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +38,8 @@ public class PostsApiControllerTest {
     }
 
     @Test
-    public void Posts_등록된다() throws Exception {
+    @DisplayName("Posts 등록된다.")
+    public void test_postCreate() {
 //         given
         String title = "title";
         String content = "content";

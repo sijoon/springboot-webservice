@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="0611 12:40">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/BaseTimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/IndexControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts/posts-save.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/domain/post/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/domain/post/PostsRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lona/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lona/web/PostsApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +73,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
@@ -83,12 +86,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -101,13 +98,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2gZkjepFddKIFQ3Bd5ATWYdaz4f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -131,26 +127,21 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "0729ed5e247149bd234a38f29213d5af"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lona.web.dto" />
+      <recent name="com.lona.domain.post" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\IBK\IdeaProjects\springboot-webservice\src\main\resources\templates" />
       <recent name="C:\Users\IBK\IdeaProjects\springboot-webservice\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lona.web.dto" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.lona.web" />
@@ -166,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Gradle.PostsApiControllerTest.test_postCreate">
     <configuration name="BaseBallControllerDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,7 +204,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsApiControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BaseBallControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -226,7 +217,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.web.PostsApiControllerTest&quot;" />
+            <option value="&quot;com.lona.web.BaseBallControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -236,7 +227,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -249,7 +240,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.domain.post.PostsRepositoryTest&quot;" />
+            <option value="&quot;com.lona.web.IndexControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -259,7 +250,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest.test_savePost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest.test_postCreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -272,7 +263,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.lona.domain.post.PostsRepositoryTest.test_savePost&quot;" />
+            <option value="&quot;com.lona.web.PostsApiControllerTest.test_postCreate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -283,7 +274,11 @@
       <method v="2" />
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="temurin-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="springboot-webservice.main" />
+      <option name="PROGRAM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lona.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -291,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PostsApiControllerTest" />
-        <item itemvalue="Gradle.PostsRepositoryTest.test_savePost" />
-        <item itemvalue="Gradle.PostsRepositoryTest (1)" />
+        <item itemvalue="Gradle.PostsApiControllerTest.test_postCreate" />
+        <item itemvalue="Gradle.IndexControllerTest" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest" />
         <item itemvalue="Gradle.BaseBallControllerDtoTest.scoreResultTest_null" />
+        <item itemvalue="Gradle.BaseBallControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,10 +305,6 @@
       <workItem from="1715912645674" duration="890000" />
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
-      <workItem from="1716867510022" duration="2024000" />
-      <workItem from="1717469937822" duration="133000" />
-      <workItem from="1717470197000" duration="4978000" />
-      <workItem from="1718074673174" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -329,68 +320,17 @@
       <option name="project" value="LOCAL" />
       <updated>1716636248866</updated>
     </task>
-    <task id="LOCAL-00003" summary="PostsRepositoryTest.java 실습 작성">
-      <created>1716869557059</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1716869557059</updated>
-    </task>
-    <task id="LOCAL-00004" summary="20240604">
-      <created>1717477581514</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1717477581514</updated>
-    </task>
-    <task id="LOCAL-00005" summary="머스테치">
-      <created>1717478520982</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1717478520982</updated>
-    </task>
-    <task id="LOCAL-00006" summary="CRUD 진행중">
-      <created>1718074956692</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1718074956692</updated>
-    </task>
-    <task id="LOCAL-00007" summary="0611 12:40">
-      <created>1718077253706</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1718077253707</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="실습 코드 커밋" />
     <MESSAGE value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
-    <MESSAGE value="PostsRepositoryTest.java 실습 작성" />
-    <MESSAGE value="20240604" />
-    <MESSAGE value="머스테치" />
-    <MESSAGE value="CRUD 진행중" />
-    <MESSAGE value="0611 12:40" />
-    <option name="LAST_COMMIT_MESSAGE" value="0611 12:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
