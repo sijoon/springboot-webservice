@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="일부 작성">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="삭제, 수정, 생성">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/OAuthAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SessionUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -132,6 +138,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lona.config.auth" />
       <recent name="com.lona.web" />
       <recent name="com.lona.domain.post" />
     </key>
@@ -287,7 +294,7 @@
       <workItem from="1715912645674" duration="890000" />
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
-      <workItem from="1719125643825" duration="4524000" />
+      <workItem from="1719125643825" duration="6711000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -317,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718644457979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="삭제, 수정, 생성">
+      <created>1719130920548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719130920548</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +354,8 @@
     <MESSAGE value="homework #2&#10;BaseBall 코드를 활용한 단위 테스트 코드" />
     <MESSAGE value="0618" />
     <MESSAGE value="일부 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="일부 작성" />
+    <MESSAGE value="삭제, 수정, 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="삭제, 수정, 생성" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
