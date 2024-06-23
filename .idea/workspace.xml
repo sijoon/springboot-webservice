@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="일부 작성">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/BaseTimeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/BaseTimeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/service/PostsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/PostsApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostListResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsListResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/app/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/app/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +40,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="springboot-webservice" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="springboot-webservice" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -117,8 +103,10 @@
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -133,7 +121,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "shared-indexes",
+    "spring.configuration.checksum": "0729ed5e247149bd234a38f29213d5af"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -298,6 +287,7 @@
       <workItem from="1715912645674" duration="890000" />
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
+      <workItem from="1719125643825" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -333,6 +323,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="실습 코드 커밋" />
@@ -343,6 +344,10 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_webservice$PostsRepositoryTest_test_savePost.ic" NAME="PostsRepositoryTest.test_savePost 커버리지 결과" MODIFIED="1718646959683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
