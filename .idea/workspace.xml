@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="삭제, 수정, 생성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="google 연동">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/CustomOAuth2UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/CustomOAuth2UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/OAuthAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/OAuthAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SessionUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/config/auth/SessionUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/Posts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/post/PostsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/domain/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,30 +164,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="IndexControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.lona.web.IndexControllerTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.springboot-webservice [bootRun]">
     <configuration name="PostsApiControllerTest.test_postCreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -271,6 +234,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="springboot-webservice [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/app/js/index.js" working-dir="$PROJECT_DIR$/src/main/resources/static/app/js">
       <method v="2" />
     </configuration>
@@ -287,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.springboot-webservice [bootRun]" />
         <item itemvalue="Gradle.PostsRepositoryTest.test_savePost" />
         <item itemvalue="Gradle.PostsRepositoryTest.test_baseTimeEntityPost" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Gradle.PostsApiControllerTest.test_postCreate" />
-        <item itemvalue="Gradle.IndexControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719130920548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="google 연동">
+      <created>1719286247727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719286247727</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +358,8 @@
     <MESSAGE value="0618" />
     <MESSAGE value="일부 작성" />
     <MESSAGE value="삭제, 수정, 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="삭제, 수정, 생성" />
+    <MESSAGE value="google 연동" />
+    <option name="LAST_COMMIT_MESSAGE" value="google 연동" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

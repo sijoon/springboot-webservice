@@ -1,5 +1,6 @@
 package com.lona.web;
 
+import com.lona.config.auth.LoginUser;
 import com.lona.config.auth.SessionUser;
 import com.lona.service.PostsService;
 import com.lona.web.dto.PostsResponseDto;
@@ -27,12 +28,12 @@ public class IndexController {
 //        return "index";
 //    }
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser sessionUser) {
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser sessionUser = (SessionUser) httpSession.getAttribute("user");
         if (sessionUser != null) {
             model.addAttribute("userName", sessionUser.getName());
         }
+
         return "index";
     }
 
