@@ -22,11 +22,11 @@ public class SecurityConfig {
         return http
                 .csrf(AbstractHttpConfigurer::disable)
                 .headers(headers -> headers.frameOptions(HeadersConfigurer.FrameOptionsConfig::disable))
-//                .authorizeHttpRequests( auth ->
-//                        auth.requestMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**", "/profile").permitAll()
-//                                .requestMatchers("/api/v1/**").hasRole(Role.USER.name())
-//                                .anyRequest().authenticated()
-//                )
+                .authorizeHttpRequests(auth ->
+                        auth.requestMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**", "/profile").permitAll()
+                                //.requestMatchers("/api/v1/**").hasRole(Role.USER.name())
+                                .anyRequest().authenticated()
+                )
                 .logout(logout -> logout.logoutSuccessUrl("/"))
                 .oauth2Login(login -> login.userInfoEndpoint(point -> point.userService(customOAuth2UserService))
                         .defaultSuccessUrl("/", true))

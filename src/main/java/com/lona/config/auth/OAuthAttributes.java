@@ -1,7 +1,7 @@
 package com.lona.config.auth;
 
 import com.lona.domain.user.Role;
-import com.lona.domain.user.User;
+import com.lona.domain.user.Users;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -38,8 +38,8 @@ public class OAuthAttributes {
                 .build();
     }
 
-    public User toEntity() {
-        return User.builder()
+    public Users toEntity() {
+        return Users.builder()
                 .name(name)
                 .email(email)
                 .picture(picture)
