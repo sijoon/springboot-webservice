@@ -1,16 +1,19 @@
 spring:
   jpa:
+    show-sql: true
     properties:
       hibernate:
-        show_sql: true
-    h2:
+        format_sql: true
+  h2:
     console:
       enabled: true
-    profiles:
-      include: oauth
-
-server:
-  servlet:
-    encoding:
-      charset: UTF-8
-      force-response: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET
+            scope:
+              - email
+              - profile
