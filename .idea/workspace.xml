@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="google 연동">
+    <list default="true" id="728e2a49-f7db-4f7d-9b9f-2b0a0da2b590" name="변경" comment="일부 업로드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lona/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,6 +292,7 @@
       <workItem from="1716006500987" duration="108000" />
       <workItem from="1716006620268" duration="1240000" />
       <workItem from="1719125643825" duration="6711000" />
+      <workItem from="1719472856872" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="실습 코드 커밋">
       <created>1716631260292</created>
@@ -334,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719286247727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="google 연동">
+      <created>1719286773574</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719286773574</updated>
+    </task>
+    <task id="LOCAL-00008" summary="일부 업로드">
+      <created>1719287520678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719287520678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +375,8 @@
     <MESSAGE value="일부 작성" />
     <MESSAGE value="삭제, 수정, 생성" />
     <MESSAGE value="google 연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="google 연동" />
+    <MESSAGE value="일부 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="일부 업로드" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
