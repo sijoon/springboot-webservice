@@ -29,12 +29,12 @@ public class PostsService {
         return postsRepository.findAllDesc().stream().map(PostsListResponseDto::new).collect(Collectors.toList());
     }
 
-
+    @Transactional
     public Long update(Long id, PostsUpdateRequestDto requestDto) {
         Posts posts = postsRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("해당사용자가 없습니다. id=" + id));
         posts.update(requestDto.getTitle(), requestDto.getContent());
-        postsRepository.save(posts);
-        return id;
+        //postsRepository.save(posts);
+        return posts.getId();
     }
 
     public PostsResponseDto findById(Long id) {
